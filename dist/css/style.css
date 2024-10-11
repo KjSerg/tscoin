@@ -1,0 +1,487 @@
+.login {
+
+}
+
+.login-section .main_title {
+    margin-bottom: 2rem;
+}
+
+.login-section {
+
+}
+
+.login-section-container {
+    width: 100%;
+    max-width: 53rem;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: #fff;
+}
+
+.login-section__subtitle:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.login-section__subtitle {
+    color: #707070;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 120%;
+}
+
+.login-section__subtitle a {
+    text-decoration-line: underline;
+}
+
+.password {
+    position: relative;
+}
+
+.password-open, .password-close {
+    position: absolute;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    cursor: pointer;
+}
+
+.password-close {
+    display: none;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+.lang_chooser:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.selectric-items li {
+    display: flex;
+}
+
+.select_wrapper .selectric-items {
+    min-width: 8rem;
+}
+
+.selectric-ico {
+    display: block;
+    width: 1.9rem;
+    height: 1.2rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+}
+
+
+.login-button {
+    display: block;
+    height: 5rem;
+    background-color: #826252;
+}
+
+.login-button:hover {
+    background-color: #fff;
+
+}
+
+.login-button:hover svg path {
+    fill: #826252;
+}
+
+.account-section {
+    padding-bottom: 10rem;
+}
+
+.account-section__head {
+    margin-bottom: 2rem;
+    color: #FFF;
+    font-family: BebasNeuePro-Bold;
+    font-size: 5.5rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.account-section-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-section-sidebar a {
+    padding: 1.8rem;
+    display: block;
+    background: #FFF;
+    color: #707070;
+    font-family: Inter-Medium;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.account-section-sidebar a.active, .account-section-sidebar a:hover {
+    color: #3A3A38;
+}
+
+.account-section-sidebar li {
+    border-bottom: 1px solid #727270;
+}
+
+.account-section-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    width: 29.9rem;
+    flex-shrink: 0;
+    border: 1px solid #727270;
+    background: #FFF;
+}
+.account-section-sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.logaut-button .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+a.logaut-button {
+    margin-top: auto;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 1.8rem;
+    border-top: 1px solid #727270;
+    background: #FFF;
+    color: #707070;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.account-section-box__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.account-section-box__edit .icon {
+    margin-left: 1rem;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 2rem;
+    height: 2rem;
+}
+.account-section-box__edit {
+    display: flex;
+    align-items: center;
+    color: #424242;
+    font-family:BebasNeuePro-Regular;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.personal-data-form button{
+    opacity: 0.4;
+}
+.personal-data-form {
+    pointer-events: none;
+}
+
+.account-section-box.active .personal-data-form button{
+    opacity: 1;
+}
+.account-section-box.active .personal-data-form{
+    pointer-events: auto;
+}
+
+.account-section-box {
+    width: 100%;
+    padding: 3rem;
+    background-color: #fff;
+    border: 1px solid #727270;
+}
+
+.account-section-box__title {
+    margin-bottom: 2rem;
+    color: #424242;
+    font-family: BebasNeuePro-Regular;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.account-section-box__title:last-child {
+    margin-bottom: 0;
+}
+
+.account-order {
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid rgba(114, 114, 112, 0.25);
+    background: #FFF;
+}
+
+.account-order-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-order:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.account-order-head-column {
+    width: 100%;
+}
+
+.account-order__number {
+    margin-bottom: 1.5rem;
+    color: #424242;
+    font-family: BebasNeuePro-Regular;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 3.6rem */
+    text-transform: uppercase;
+}
+
+.account-order__status {
+    color: #707070;
+    font-family: BebasNeuePro-Bold;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.account-order__status.delivered {
+    color: #09AA5B;
+}
+
+.account-order-total__head {
+    margin-bottom: 1.5rem;
+    color: #707070;
+    font-family: BebasNeuePro-Regular;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.92rem */
+    text-transform: uppercase;
+}
+
+.account-order-total__value {
+    color: #424242;
+    font-family: BebasNeuePro-Bold;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.account-order-product img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.account-order-product {
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.account-order-product:last-child {
+    margin-right: 0;
+}
+
+.account-order-products {
+    display: flex;
+    align-items: center;
+    width: 17rem;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.account-order-head-button svg {
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+}
+
+.account-order-head-button {
+    display: flex;
+    align-items: flex-end;
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: auto;
+}
+
+.header.moved .login-button {
+    height: 6rem;
+}
+
+.account-order.open .account-order-head-button svg {
+    transform: rotate(0);
+}
+
+.account-order-body {
+    padding-top: 1.3rem;
+    border-top: 1px solid rgba(114, 114, 112, 0.25);
+}
+
+.account-order-body-column:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.account-order-body {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    color: #424242;
+    font-family: BebasNeuePro-Regular;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.account-order-body__head {
+    margin-bottom: 1rem;
+    color: #707070;
+    font-family: BebasNeuePro-Regular;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.account-order-body-container {
+    display: none;
+}
+.form_elements>*:last-child{
+    margin-bottom: 0;
+}
+.form_text a{
+    text-decoration-line: underline;
+}
+.form_text {
+    margin-bottom: 3rem;
+    font-family:BebasNeuePro-Regular;
+    color: #707070;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 120%; /* 1.68rem */
+}
+
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .account-order__number {
+        font-size: 2rem;
+    }
+    .account-order-total__value {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .account-order br {
+        display: block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .account-section-box {
+        padding: 3rem 1.5rem;
+    }
+    .account-order {
+        padding: 2rem 1rem;
+    }
+    .account-order-head {
+        flex-wrap: wrap;
+    }
+    .account-order__number {
+        margin-bottom: 0;
+        margin-right: 2rem;
+    }
+    .account-order-head-column:nth-child(1) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .account-order-head-column:nth-child(2) {
+        width: calc(50% - 3rem);
+    }
+    .account-order-head-column:nth-child(3) {
+        width: 50%;
+    }
+    .account-order-body {
+        flex-wrap: wrap;
+    }
+    .account-order-body-column:not(:last-child) {
+        margin-right: 0;
+    }
+    .account-order-body-column{
+        width: calc(50% - 2rem);
+        margin: 1rem 0.5rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .account-section-content {
+        flex-direction: column;
+    }
+
+    .account-section-sidebar {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .account-section-sidebar ul {
+        display: flex;
+    }
+
+    .account-section-sidebar li {
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-section-container {
+        padding: 2rem 2rem;
+    }
+}
+
+
+/*
+font-family:BebasNeuePro-Regular
+font-family:BebasNeuePro-Bold
+*/

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "htmlburger/carbon-fields": "^3.6",
+        "stripe/stripe-php": "^13.1"
+    }
+}
