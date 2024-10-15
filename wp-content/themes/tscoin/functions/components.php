@@ -262,6 +262,7 @@ function the_wc_product( $_id = false ) {
 	$tag_image      = carbon_get_post_meta( $_id, 'product_item_tag_image' );
 	$description    = $product->get_short_description();
 	$price          = $product->get_price_html();
+	$availability_text        = carbon_get_post_meta( $_id, 'product_item_availability_text' );
 	$wish_list      = $_COOKIE['wish_list'] ?? '';
 	if ( $wish_list ) {
 		$wish_list = explode( ",", $wish_list );
@@ -306,6 +307,9 @@ function the_wc_product( $_id = false ) {
 			<?php elseif ( $stock_status == 'onbackorder' ): ?>
                 <div class="product_item_status " style="color: #1A73D7;">
 					<?php _l( 'In Pre-Order' ); ?>
+	                <?php if ( $availability_text ): ?>
+                        <p><?php echo $availability_text; ?></p>
+	                <?php endif; ?>
                 </div>
 			<?php endif; ?>
 

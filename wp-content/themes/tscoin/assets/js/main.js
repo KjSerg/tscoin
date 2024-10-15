@@ -48,6 +48,7 @@ $('img.svg').toSVG({
 $(document).ready(function () {
   var bw = window.innerWidth;
   var bh = window.innerHeight; //E-mail Ajax Send
+
   $(".form_send").each(function () {
     var it = $(this);
     it.validate({
@@ -92,6 +93,7 @@ $(document).ready(function () {
       }
     });
   }); // scroll to element
+
   function scrollToElement(target) {
     var targetTop = target.offset().top;
     $('body,html').animate({
@@ -99,16 +101,20 @@ $(document).ready(function () {
     }, 700);
     event.preventDefault();
   }
+
   $(document).on('click', ".scroll_btn", function (event) {
     event.preventDefault();
     var th = $(this);
     scrollToElement($(th.attr('href')));
   }); //  fixed menu
+
   var header = $(".header");
   var loadCurrentScrollTop = $(document).scrollTop();
+
   if (loadCurrentScrollTop > 54) {
     header.addClass("moved");
   }
+
   $(window).scroll(function () {
     var currentScrollTop = $(document).scrollTop();
 
@@ -118,6 +124,7 @@ $(document).ready(function () {
       header.addClass("moved");
     }
   }); //masked
+
   $('input[type=tel]').mask("+9(999) 999-99-99"); // fancybox
 
   var scrollWidth = window.innerWidth - document.body.offsetWidth;

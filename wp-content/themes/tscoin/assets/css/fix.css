@@ -206,3 +206,22 @@ span.wpcf7-list-item {
         top: calc(100% + 1rem);
     }
 }
+
+.content .wc-block-components-sidebar-layout .wc-block-components-main{
+    padding: 0 15px;
+}
+.content .is-large.wc-block-cart .wc-block-cart__totals-title{
+    padding: 8px 16px 8px 16px;
+}
+.wc-block-components-button:not(.is-link) .wc-block-components-button__text{
+    color: #fff;
+}
+.is-large .wp-block-woocommerce-checkout-order-summary-block{
+    background-color: #fff;
+}
+.wc-blocks-components-select .wc-blocks-components-select__expand{
+    width: 20px;
+}
+.content .wc-block-components-checkbox .wc-block-components-checkbox__mark{
+    width: 20px;
+}

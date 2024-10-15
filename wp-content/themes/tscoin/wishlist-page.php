@@ -47,7 +47,6 @@ $sections      = carbon_get_post_meta( $id, 'about_sections' );
 						'posts_status'   => 'publish',
 					);
 					$arr['post__in'] = $wish_list;
-                    var_dump($arr);
 					$query = new WP_Query( $arr );
 					if ( $query->have_posts() ):
 						while ( $query->have_posts() ):
